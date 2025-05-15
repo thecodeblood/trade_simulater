@@ -11,7 +11,7 @@ setup(
     description="A cryptocurrency trade simulator with market impact and slippage modeling",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/thecodeblood/trade-simulator",
+    url="https://github.com/thecodeblood/trade_simulator",
     packages=find_packages(where="src"),
     package_dir={"":"src"},
     classifiers=[
