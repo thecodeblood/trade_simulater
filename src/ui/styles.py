@@ -79,7 +79,9 @@ def apply_stylesheet(widget):
         
         QPushButton:hover {
             background-color: #2980b9;
-            transition: background-color 0.3s; /* Smooth transition */
+            /* Remove the transition property */
+        }
+        transition: background-color 0.3s; /* Smooth transition */
         }
         
         QPushButton:pressed {

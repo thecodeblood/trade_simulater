@@ -25,9 +25,9 @@ async def main():
         'lambda_temp': 1e-6,
         'gamma': 0.1,
         'sigma': 0.3,
-        'eta': 5e-7,  # Increased from default 2.5e-7
+        'eta': 5e-7,
         'epsilon': 0.01,
-        'tau': 1.0
+        'tau': 0.5  # Decreased from 1.0
     }
     impact_model = AlmgrenChrissModel(params=impact_model_params)
     slippage_model = SlippageModelFactory.create_model("auto")
