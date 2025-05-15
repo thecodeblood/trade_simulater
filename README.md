@@ -41,6 +41,7 @@ A sophisticated trading simulator that implements advanced market models for cry
 ```bash
    git clone <repository-url>
    cd Trader
+```   
 
 2. Create and activate a virtual environment
 ```bash
