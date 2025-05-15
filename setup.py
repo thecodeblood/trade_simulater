@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="trade-simulator",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Abhijeet Yadav",
+    author_email="rabhi.official@gmail.com",
     description="A cryptocurrency trade simulator with market impact and slippage modeling",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/trade-simulator",
+    url="https://github.com/thecodeblood/trade-simulator",
     packages=find_packages(where="src"),
     package_dir={"":"src"},
     classifiers=[
